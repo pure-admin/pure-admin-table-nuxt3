@@ -1,0 +1,29 @@
+{
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "HOST=0.0.0.0 nuxt preview",
+    "postinstall": "nuxt prepare",
+    "format": "prettier --check --write ."
+  },
+  "devDependencies": {
+    "@element-plus/nuxt": "^1.0.7",
+    "@nuxtjs/color-mode": "^3.3.2",
+    "@nuxtjs/i18n": "^8.0.0",
+    "@nuxtjs/tailwindcss": "^6.10.1",
+    "nuxt": "^3.9.0",
+    "nuxt-svgo-loader": "^0.2.0",
+    "prettier": "^3.1.1",
+    "sass": "^1.69.5",
+    "tailwindcss": "^3.4.0",
+    "vue": "^3.3.13"
+  },
+  "dependencies": {
+    "@pureadmin/table": "^3.0.0",
+    "@pureadmin/utils": "^2.0.1",
+    "element-plus": "^2.4.4"
+  }
+}

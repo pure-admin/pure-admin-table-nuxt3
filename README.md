@@ -1,2 +1,1 @@
-# pure-admin-table-nuxt3
-@pureadmin/table在nuxt3中的示例
+[在线预览](https://pure-admin.github.io/pure-admin-table-nuxt3/)
