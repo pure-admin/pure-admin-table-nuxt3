@@ -6,19 +6,19 @@ settings:
 
 dependencies:
   '@pureadmin/table':
-    specifier: ^3.0.0
-    version: 3.0.0(element-plus@2.4.4)
+    specifier: ^3.0.2
+    version: 3.0.2(element-plus@2.5.3)
   '@pureadmin/utils':
-    specifier: ^2.0.1
-    version: 2.0.1(vue@3.3.13)
-  element-plus:
     specifier: ^2.4.4
     version: 2.4.4(vue@3.3.13)
+  element-plus:
+    specifier: ^2.5.3
+    version: 2.5.3(vue@3.3.13)
 
 devDependencies:
   '@element-plus/nuxt':
     specifier: ^1.0.7
-    version: 1.0.7(@element-plus/icons-vue@2.3.1)(element-plus@2.4.4)(rollup@3.29.4)
+    version: 1.0.7(@element-plus/icons-vue@2.3.1)(element-plus@2.5.3)(rollup@3.29.4)
   '@nuxtjs/color-mode':
     specifier: ^3.3.2
     version: 3.3.2(rollup@3.29.4)
@@ -449,7 +449,7 @@ packages:
     dependencies:
       vue: 3.3.13
 
-  /@element-plus/nuxt@1.0.7(@element-plus/icons-vue@2.3.1)(element-plus@2.4.4)(rollup@3.29.4):
+  /@element-plus/nuxt@1.0.7(@element-plus/icons-vue@2.3.1)(element-plus@2.5.3)(rollup@3.29.4):
     resolution: {integrity: sha512-cRP2iMTzrKKKgfXuWXQ/HAC1vawVeErNZPz7ylA2OfhR+RKPS0UbDy43zytBx/imxhuZbtDI6lPuGAf7TOMYDQ==}
     peerDependencies:
       '@element-plus/icons-vue': '>=0.2.6'
@@ -457,7 +457,7 @@ packages:
     dependencies:
       '@element-plus/icons-vue': 2.3.1(vue@3.3.13)
       '@nuxt/kit': 3.9.0(rollup@3.29.4)
-      element-plus: 2.4.4(vue@3.3.13)
+      element-plus: 2.5.3(vue@3.3.13)
       magic-string: 0.27.0
       unplugin: 1.6.0
     transitivePeerDependencies:
@@ -1521,19 +1521,19 @@ packages:
     resolution: {integrity: sha512-2LuNTFBIO0m7kKIQvvPHN6UE63VjpmL9rnEEaOOaiSPbZK+zUOYIzBAWcED+3XYzhYsd/0mD57VdxAEqqV52CQ==}
     dev: true
 
-  /@pureadmin/table@3.0.0(element-plus@2.4.4):
-    resolution: {integrity: sha512-Pfh1apzYwCfkNIrc9R0/Yi8dBZOhWZq0uwRa/b1OsDr7dYqfYs1lRxcGkPsmYgIKx8kZbaOaGBfHAsyf+WFgpQ==}
+  /@pureadmin/table@3.0.2(element-plus@2.5.3):
+    resolution: {integrity: sha512-VrtpuzKm4t2KS81MWBy2G1xayjvYIM5s3EUs91mZxmA+qLb8FdF2k4QdCufVA8ZZG85AeM2HA7Z0SvqMAwy0dA==}
     peerDependencies:
       element-plus: ^2.0.0
     dependencies:
-      element-plus: 2.4.4(vue@3.3.13)
+      element-plus: 2.5.3(vue@3.3.13)
       vue: 3.3.13
     transitivePeerDependencies:
       - typescript
     dev: false
 
-  /@pureadmin/utils@2.0.1(vue@3.3.13):
-    resolution: {integrity: sha512-8yOw1AFv5b5thUWUT2igqLMuztDyFemSV+8ydc2LNAedLPi3TABmscXQb5tvHcWm/O9otSuYmZlyRKfwMW/Lew==}
+  /@pureadmin/utils@2.4.4(vue@3.3.13):
+    resolution: {integrity: sha512-dH1ml+/U50Te7KlZX8pkA08/o+XKYx8aFyds9aTBC34JDyn0GQSyhe0zFIfGwnFztWMToWn/cyitpXmDEcq3NA==}
     peerDependencies:
       echarts: '*'
       vue: '*'
@@ -3105,8 +3105,8 @@ packages:
     resolution: {integrity: sha512-1n7zWYh8eS0L9Uy+GskE0lkBUNK83cXTVJI0pU3mGprFsbfSdAc15VTFbo+A+Bq4pwstmL30AVcEU3Fo463lNg==}
     dev: true
 
-  /element-plus@2.4.4(vue@3.3.13):
-    resolution: {integrity: sha512-TlKubXJgxwhER0dw+8ULn9hr9kZjraV4R6Q/eidwWUwCKxwXYPBGmMKsZ/85tlxlhMYbcLZd/YZh6G3QkHX4fg==}
+  /element-plus@2.5.3(vue@3.3.13):
+    resolution: {integrity: sha512-wmtstxaMkD6UinIgD+45CjrhbRh4u0vt+/GgxfPeMLt5pDpIVwZFjkUaVcWqqxcxd5a80HP3XlDF74fW7wim9A==}
     peerDependencies:
       vue: ^3.2.0
     dependencies:
